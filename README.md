@@ -1,6 +1,6 @@
-# Script | Ubuntu | Unattended Upgrades
+# Script | Ubuntu | Security Updates
 
-[![License](https://img.shields.io/github/license/odaceo/script-ubuntu-unattended-upgrades.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/odaceo/script-ubuntu-security-updates.svg)](LICENSE)
 
 ## Description
 
@@ -30,17 +30,17 @@ Vagrant.configure(2) do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
-  config.vm.provision "shell", privileged: false, path: "https://raw.githubusercontent.com/odaceo/script-ubuntu-unattended-upgrades/xenial64/install.sh"
+  config.vm.provision "shell", privileged: false, path: "https://raw.githubusercontent.com/odaceo/script-ubuntu-security-updates/xenial64/install.sh"
 end
 ```
 
 ## Reporting Issues
 
-Issues can be reported at [https://github.com/odaceo/script-ubuntu-unattended-upgrades/issues](https://github.com/odaceo/script-ubuntu-unattended-upgrades/issues)
+Issues can be reported at [https://github.com/odaceo/script-ubuntu-security-updates/issues](https://github.com/odaceo/script-ubuntu-security-updates/issues)
 
 ## Source code
 
-The source code is available at [https://github.com/odaceo/script-ubuntu-unattended-upgrades](https://github.com/odaceo/script-ubuntu-unattended-upgrades)
+The source code is available at [https://github.com/odaceo/script-ubuntu-security-updates](https://github.com/odaceo/script-ubuntu-security-updates)
 
 ## License
 
