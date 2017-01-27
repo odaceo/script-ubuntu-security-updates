@@ -18,7 +18,7 @@
 sudo apt-get update
 
 # Install required packages
-sudo apt-get -y install unattended-upgrades
+sudo apt-get install -y unattended-upgrades
 
 # Send mail to root
 sudo sed -i 's|^[/]*Unattended-Upgrade::Mail .*|Unattended-Upgrade::Mail "root";|' \
