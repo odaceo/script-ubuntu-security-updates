@@ -1,4 +1,4 @@
-# Script | Ubuntu | Security Updates
+# Script :: Ubuntu :: Security Updates
 
 [![License](https://img.shields.io/github/license/odaceo/script-ubuntu-security-updates.svg)](LICENSE)
 
